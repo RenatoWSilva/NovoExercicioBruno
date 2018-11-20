@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical"
+    tools:context="com.exemplo.exercicio.exercicion2.Activity.MainActivity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+
+            android:id="@+id/fazPost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Post"
+            android:onClick="fazPost1"
+            />
+
+        <Button
+            android:id="@+id/fazTodo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Todo"
+            android:onClick="fazTodo1"
+            />
+
+        <Button
+            android:id="@+id/fazAlbum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Album"
+            android:onClick="fazAlbum1"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
