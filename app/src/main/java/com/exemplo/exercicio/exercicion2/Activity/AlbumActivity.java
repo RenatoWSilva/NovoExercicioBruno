@@ -47,6 +47,7 @@ public class AlbumActivity extends AppCompatActivity {
                 }
         );
 
+
         Retrofit r=new Retrofit.Builder()
                 .addConverterFactory(GsonConverterFactory.create())
                 .baseUrl("http://jsonplaceholder.typicode.com/")

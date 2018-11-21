@@ -36,15 +36,6 @@ public class CommentActivity extends AppCompatActivity {
         adapter = new CommentAdapter();
         lvComment.setAdapter(adapter);
         position=getIntent().getIntExtra("Position",0);
-//        Retrofit r=new Retrofit.Builder()
-//                .addConverterFactory(GsonConverterFactory.create())
-//                .baseUrl("https://jsonplaceholder.typicode.com/")
-//                .build();
-//
-//        JsonPlaceholder api=new Retrofit.Builder()
-//                .addConverterFactory(GsonConverterFactory.create())
-//                .baseUrl("https://jsonplaceholder.typicode.com/")
-//                .build().create(JsonPlaceholder.class);
 
 
         new Retrofit

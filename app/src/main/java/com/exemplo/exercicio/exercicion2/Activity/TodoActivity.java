@@ -35,7 +35,6 @@ public class TodoActivity extends AppCompatActivity {
         lvTodo= findViewById(R.id.lv);
         adapter=new TodoAdapter();
         lvTodo.setAdapter(adapter);
-//        new DownloadTodoTask().execute();
         Retrofit r=new Retrofit.Builder()
                 .addConverterFactory(GsonConverterFactory.create())
                 .baseUrl("https://jsonplaceholder.typicode.com/")
